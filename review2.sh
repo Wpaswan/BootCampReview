@@ -26,7 +26,8 @@ do
 		c=$(( $c + 1 ))
 	
 	fi
-	if [ $c -eq 0 ]
+	two=2
+	if [ $c -eq $two ]
 	then
 	echo " $num is prime "
 	fi
